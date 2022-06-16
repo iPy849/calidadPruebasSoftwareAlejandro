@@ -1,5 +1,7 @@
 package com.anahuac;
 
+import com.anahuac.calculadora.Calculadora;
+
 /**
  * Hello world!
  *
@@ -8,6 +10,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World again!!! How you doing? Ayuwoki?" );
+        Calculadora calculadora = new Calculadora();
+        calculadora.suma(10, 5);
+        System.out.println(calculadora.getUltimoResultado());
     }
 }

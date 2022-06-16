@@ -4,13 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a421427-6fe0-4993-806e-1762efe65366" name="Changes" comment="Added text to App class">
+    <list default="true" id="7a421427-6fe0-4993-806e-1762efe65366" name="Changes" comment="Added even more text to App class">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/calculadora/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/temperature/CelsiusData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/temperature/FarenheitData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/temperature/TemperatureConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/calculadora/CalculadoraParamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/calculadora/CalculadoraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/temperature/TemperatureConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/anahuac/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anahuac/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,18 +49,39 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.anahuac.calculadora" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.anahuac.temperature" />
+      <recent name="com.anahuac" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.anahuac" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TemperatureConverterTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.anahuac.App" />
       <module name="calidadPruebasSoftwareAlejandro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anahuac.*" />
+          <option name="PATTERN" value="com.anahuac.temperature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -48,9 +89,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculadoraParamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calidadPruebasSoftwareAlejandro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anahuac.temperature.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anahuac.calculadora" />
+      <option name="MAIN_CLASS_NAME" value="com.anahuac.calculadora.CalculadoraParamTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calidadPruebasSoftwareAlejandro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anahuac.temperature.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anahuac.calculadora" />
+      <option name="MAIN_CLASS_NAME" value="com.anahuac.calculadora.CalculadoraTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calidadPruebasSoftwareAlejandro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anahuac.temperature.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anahuac.temperature" />
+      <option name="MAIN_CLASS_NAME" value="com.anahuac.temperature.TemperatureConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.anahuac in calidadPruebasSoftwareAlejandro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calidadPruebasSoftwareAlejandro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anahuac.temperature.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anahuac" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.TemperatureConverterTest" />
+        <item itemvalue="Application.com.anahuac.App" />
+        <item itemvalue="JUnit.com.anahuac in calidadPruebasSoftwareAlejandro" />
+        <item itemvalue="JUnit.CalculadoraParamTest" />
+        <item itemvalue="JUnit.CalculadoraTest" />
       </list>
     </recent_temporary>
   </component>
@@ -62,7 +166,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654828424849</updated>
-      <workItem from="1654828427067" duration="950000" />
+      <workItem from="1654828427067" duration="988000" />
+      <workItem from="1655246675723" duration="5349000" />
+      <workItem from="1655335037667" duration="2298000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1654828772974</created>
@@ -78,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654829342997</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added even more text to App class">
+      <created>1654829420828</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654829420828</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +211,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Added text to App class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added text to App class" />
+    <MESSAGE value="Added even more text to App class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added even more text to App class" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
