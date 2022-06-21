@@ -1,4 +1,4 @@
-package com.anahuac.temperature;
+package com.anahuac.junit.temperature;
 
 public class FarenheitData {
     private double value;

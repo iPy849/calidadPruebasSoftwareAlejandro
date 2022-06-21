@@ -1,4 +1,4 @@
-package com.anahuac.calculadora;
+package com.anahuac.junit.calculadora;
 
 public class Calculadora {
 

@@ -1,6 +1,7 @@
-package com.anahuac.calculadora;
+/*
+package com.anahuac.jupiter.calculadora;
 
-import com.anahuac.calculadora.Calculadora;
+import com.anahuac.junit.calculadora.Calculadora;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -49,4 +50,4 @@ class CalculadoraParamTest {
         assertThat(resultado, is(r));
     }
 
-}
+}*/

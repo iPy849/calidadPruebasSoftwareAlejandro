@@ -1,6 +1,7 @@
-package com.anahuac.calculadora;
+/*
+package com.anahuac.jupiter.calculadora;
 
-import com.anahuac.calculadora.Calculadora;
+import com.anahuac.junit.calculadora.Calculadora;
 import org.junit.jupiter.api.*;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -75,4 +76,4 @@ class CalculadoraTest {
         double resultado = calculadora.division(3, 1);
         assertThat(resultado, is(resultadoEsperado));
     }
-}
+}*/

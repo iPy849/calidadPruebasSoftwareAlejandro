@@ -1,6 +1,6 @@
 package com.anahuac;
 
-import com.anahuac.calculadora.Calculadora;
+import com.anahuac.junit.calculadora.Calculadora;
 
 /**
  * Hello world!
