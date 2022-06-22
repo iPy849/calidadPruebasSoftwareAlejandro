@@ -2,8 +2,8 @@ package com.anahuac.DoublesDAO;
 
 public class MockUsuarioDAO implements  UsuarioDAO{
 
-    public boolean agregarUsuario(Usuario usuario) {
-        return false;
+    public int agregarUsuario(Usuario usuario) {
+        return 0;
     }
 
     public boolean borrarUsuario(Usuario usuario) {

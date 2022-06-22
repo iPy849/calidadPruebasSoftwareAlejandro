@@ -67,6 +67,7 @@ public class TestBookShelf {
 
         // The expected result list is sorted using the same way as the bookshelf do.
         expectedBookOrder = expectedBookOrder.stream().sorted(Comparator.naturalOrder()).collect(toList());
-        assertThat(bookShelf.arrange(), is(expectedBookOrder));
+        List<Book> result = bookShelf.arrange();
+        assertThat(result, is(expectedBookOrder));
     }
 }

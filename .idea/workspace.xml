@@ -4,35 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a421427-6fe0-4993-806e-1762efe65366" name="Changes" comment="Created Calculadora class and tests. Created TemperatureConverter class and tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/DoublesDAO/MockUsuarioDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/DoublesDAO/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/DoublesDAO/UsuarioDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/mockito/intro/Dependency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/mockito/intro/Subdependency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/tareaUnitTest/entities/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/tareaUnitTest/entities/BookShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/tareaUnitTest/entities/BookShelfCapacityReached.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/tareaUnitTest/entities/Progress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/DoublesDAO/MockUsuarioDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/junit4/CalculadoraParamTestJunit4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/junit4/CalculadoraTestJunit4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/mockito/intro/DependencyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/mockito/intro/DependencyTestJunit4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/tareaUnitTest/TestBookShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/tareaUnitTest/TestBookShelfMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/tareaUnitTest/TestLibroParams.java" afterDir="false" />
+    <list default="true" id="7a421427-6fe0-4993-806e-1762efe65366" name="Changes" comment="Finished Unit Testing Homework, waiting for a review and please check TODO comments.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/DBUnit/UsuarioDAOMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/DBUnit/UsuarioDAOMySQLTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anahuac/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anahuac/calculadora/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/junit/calculadora/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anahuac/temperature/CelsiusData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/junit/temperature/CelsiusData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anahuac/temperature/FarenheitData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/junit/temperature/FarenheitData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anahuac/temperature/TemperatureConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/junit/temperature/TemperatureConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/anahuac/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/anahuac/calculadora/CalculadoraParamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/jupiter/calculadora/CalculadoraParamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/anahuac/calculadora/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/jupiter/calculadora/CalculadoraTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/anahuac/temperature/TemperatureConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/jupiter/temperature/TemperatureConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anahuac/DoublesDAO/MockUsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/DoublesDAO/MockUsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anahuac/DoublesDAO/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/DoublesDAO/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anahuac/tareaUnitTest/entities/BookShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anahuac/tareaUnitTest/entities/BookShelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anahuac/tareaUnitTest/TestBookShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/tareaUnitTest/TestBookShelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anahuac/tareaUnitTest/TestBookShelfMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anahuac/tareaUnitTest/TestBookShelfMock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,23 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/Users/alejandroortega/Documents/Universidad/Calidad y pruebas de software/calidadPruebasSoftwareAlejandro/src/main/java/com/anahuac",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alejandroortega/Documents/Universidad/Calidad y pruebas de software/calidadPruebasSoftwareAlejandro/src/main/java/com/anahuac&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/anahuac" />
@@ -102,21 +84,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.com.anahuac.tareaUnitTest in calidadPruebasSoftwareAlejandro">
-    <configuration name="TestBookShelf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calidadPruebasSoftwareAlejandro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anahuac.tareaUnitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.anahuac.tareaUnitTest" />
-      <option name="MAIN_CLASS_NAME" value="com.anahuac.tareaUnitTest.TestBookShelf" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestBookShelfMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calidadPruebasSoftwareAlejandro" />
       <extension name="coverage">
@@ -132,33 +99,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBookShelf.BookShelf_AddABookThenCheckSize_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UsuarioDAOMySQLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calidadPruebasSoftwareAlejandro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anahuac.tareaUnitTest.*" />
+          <option name="PATTERN" value="com.anahuac.DBUnit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.anahuac.tareaUnitTest" />
-      <option name="MAIN_CLASS_NAME" value="com.anahuac.tareaUnitTest.TestBookShelf" />
-      <option name="METHOD_NAME" value="BookShelf_AddABookThenCheckSize_Test" />
+      <option name="PACKAGE_NAME" value="com.anahuac.DBUnit" />
+      <option name="MAIN_CLASS_NAME" value="com.anahuac.DBUnit.UsuarioDAOMySQLTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioDAOMySQLTest.UsuarioDAOMySQLTest_CanInsertANewUser_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calidadPruebasSoftwareAlejandro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anahuac.DBUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anahuac.DBUnit" />
+      <option name="MAIN_CLASS_NAME" value="com.anahuac.DBUnit.UsuarioDAOMySQLTest" />
+      <option name="METHOD_NAME" value="UsuarioDAOMySQLTest_CanInsertANewUser_Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBookShelf.BookShelf_VerifingBookShelfCanPerfomACorrectAlphabeticArrangemet_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UsuarioDAOMySQLTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calidadPruebasSoftwareAlejandro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anahuac.tareaUnitTest.*" />
+          <option name="PATTERN" value="com.anahuac.DBUnit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.anahuac.tareaUnitTest" />
-      <option name="MAIN_CLASS_NAME" value="com.anahuac.tareaUnitTest.TestBookShelf" />
-      <option name="METHOD_NAME" value="BookShelf_VerifingBookShelfCanPerfomACorrectAlphabeticArrangemet_Test" />
+      <option name="PACKAGE_NAME" value="com.anahuac.DBUnit" />
+      <option name="MAIN_CLASS_NAME" value="com.anahuac.DBUnit.UsuarioDAOMySQLTest" />
+      <option name="METHOD_NAME" value="name" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,10 +163,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.com.anahuac.tareaUnitTest in calidadPruebasSoftwareAlejandro" />
+        <item itemvalue="JUnit.UsuarioDAOMySQLTest" />
+        <item itemvalue="JUnit.UsuarioDAOMySQLTest.UsuarioDAOMySQLTest_CanInsertANewUser_Test" />
+        <item itemvalue="JUnit.UsuarioDAOMySQLTest.name" />
         <item itemvalue="JUnit.TestBookShelfMock" />
-        <item itemvalue="JUnit.TestBookShelf" />
-        <item itemvalue="JUnit.TestBookShelf.BookShelf_VerifingBookShelfCanPerfomACorrectAlphabeticArrangemet_Test" />
-        <item itemvalue="JUnit.TestBookShelf.BookShelf_AddABookThenCheckSize_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +182,8 @@
       <workItem from="1655246675723" duration="5349000" />
       <workItem from="1655335037667" duration="2477000" />
       <workItem from="1655411767858" duration="7560000" />
-      <workItem from="1655789059185" duration="11069000" />
+      <workItem from="1655789059185" duration="11663000" />
+      <workItem from="1655851166574" duration="8293000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1654828772974</created>
@@ -230,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655337775007</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished Unit Testing Homework, waiting for a review and please check TODO comments.">
+      <created>1655801899802</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655801899802</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +243,8 @@
     <MESSAGE value="Added text to App class" />
     <MESSAGE value="Added even more text to App class" />
     <MESSAGE value="Created Calculadora class and tests. Created TemperatureConverter class and tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Calculadora class and tests. Created TemperatureConverter class and tests" />
+    <MESSAGE value="Finished Unit Testing Homework, waiting for a review and please check TODO comments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Unit Testing Homework, waiting for a review and please check TODO comments." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

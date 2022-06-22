@@ -53,7 +53,6 @@ public class BookShelf {
         return groupBy(book -> Year.of(book.getPublishedOn().getYear()));
     }
 
-    // TODO: Preguntar a la profe esta función porque no entiendo la firma de la función
     public <K> Map<K, List<Book>> groupBy(Function<Book, K> fx) {
         return books
                 .stream()
@@ -64,9 +63,7 @@ public class BookShelf {
         if (books.isEmpty()) {
             return Progress.notStarted();
         }
-        // TODO: Preguntar a la profe si el operador de referencia :: funciona como un lambda reducido o si es más como
-        //  pasar un apuntador a una función para que la ejecute en vez de una función anónima?
-        //  Fuente: https://www.geeksforgeeks.org/double-colon-operator-in-java/
+
         int booksRead = Long.valueOf(books.stream().filter(Book::isRead).count()).intValue();
         int booksInProgress = Long.valueOf(books.stream().filter(Book::isProgress).count()).intValue();
         int booksToRead = books.size() - booksRead - booksInProgress;

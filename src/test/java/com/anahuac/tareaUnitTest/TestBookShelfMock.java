@@ -6,6 +6,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
+import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
 
 import java.time.LocalDate;
@@ -34,18 +35,28 @@ public class TestBookShelfMock {
     @Test
     public void BookShelf_VerifyingBookAuthorsAreCollectedInAlphabeticalOrder_Test() {
 
-        when(bookShelf.sortByAuthor()).thenAnswer((Answer<List>) invocationOnMock -> Arrays.asList(
-                new Book[]{
-                        new Book("The Kingdom Of This World", "Alejo Carpentier", LocalDate.of(1949, 1, 1)),
-                        new Book("Harry Potter and the Globet of Fire", "J. K. Rowling", LocalDate.of(2000, 8, 1)),
-                        new Book("The Pillars of the Earth", "Ken Follett", LocalDate.of(1989, 1, 1)),
-                        new Book("The Alchemist", "Paulo Coelho", LocalDate.of(1988, 1, 1))
-                }));
+        when(bookShelf.sortByAuthor()).thenAnswer(new Answer<List>() {
+            @Override
+            public List answer(InvocationOnMock invocationOnMock) throws Throwable {
+                return Arrays.asList(new Book[]{
+                                        new Book("The Kingdom Of This World", "Alejo Carpentier", LocalDate.of(1949, 1, 1)),
+                                        new Book("The Alchemist", "Paulo Coelho", LocalDate.of(1988, 1, 1)),
+                                        new Book("The Pillars of the Earth", "Ken Follett", LocalDate.of(1989, 1, 1)),
+                                        new Book("Harry Potter and the Globet of Fire", "J. K. Rowling", LocalDate.of(2000, 8, 1)),
+                                })
+                        .stream()
+                        .sorted(Comparator.comparing(book -> book.getAuthor()))
+                        .collect(Collectors.toList());
+            }
+        });
 
-        List<Book> authorSortedBooks = bookShelf.sortByAuthor().stream()
-                .sorted(Comparator.comparing(book -> book.getAuthor())).collect(Collectors.toList());
         List<Book> authorSortedBooksResult = bookShelf.sortByAuthor();
+        char lastLetter = 0;
 
-        assertThat(authorSortedBooksResult, is(authorSortedBooks));
+        for (int i = 0; i < authorSortedBooksResult.size(); i++) {
+            boolean result = authorSortedBooksResult.get(i).getAuthor().charAt(0) >= lastLetter;
+            assertThat(result, is(true));
+            lastLetter = authorSortedBooksResult.get(i).getAuthor().charAt(0);
+        }
     }
 }
